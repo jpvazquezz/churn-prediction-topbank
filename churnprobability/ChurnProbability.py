@@ -10,11 +10,11 @@ class Churn_probability(object):
 
     def __init__(self):
         self.home_path = ''
-        self.standard_scaler = pickle.load(open(self.home_path + '\\src\\standard_scaler.pkl', 'rb'))
-        self.minmax_scaler = pickle.load(open(self.home_path + '\\src\\minmax_scaler.pkl', 'rb'))
-        self.robust_scaler = pickle.load(open(self.home_path + '\\src\\robust_scaler.pkl', 'rb'))
+        self.standard_scaler = pickle.load(open(self.home_path + 'src\\standard_scaler.pkl', 'rb'))
+        self.minmax_scaler = pickle.load(open(self.home_path + 'src\\minmax_scaler.pkl', 'rb'))
+        self.robust_scaler = pickle.load(open(self.home_path + 'src\\robust_scaler.pkl', 'rb'))
         self.init = xgb.Booster({'nthread': 4})  # init model
-        self.model = self.init.load_model(self.home_path + '\\src\\model_xgb.model') #pickle.load(open(self.home_path + '\\src\\model_xgb.pkl', 'rb'))
+        self.model = self.init.load_model(self.home_path + 'src\\model_xgb.model') #pickle.load(open(self.home_path + '\\src\\model_xgb.pkl', 'rb'))
 
     def get_customer_id(self, data):
         # Rename colunms
@@ -143,4 +143,3 @@ class Churn_probability(object):
 
         return gifted_customers
 
-# C:\\Users\\Dell\\Desktop\\ciencia_de_dados\\0.Comunidade DS\\PA_03
