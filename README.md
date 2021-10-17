@@ -43,16 +43,19 @@ The solution was based upon the following strategy:
 ## 4. Top 3 Data Insights:
 	
 **Hypothesis 1**: the higher the salary, the higher the balance.
+
 R: False, there is no evidence to support this hypothesis.
 
 **Hypothesis 2**: the greater the number of products, the higher the revenue.
+
 R: False, there is no evidence to support this hypothesis.
 
 **Hypothesis 3**: The more years the customer has in the bank, the higher his balance.
+
 R: False, there is no evidence to support this hypothesis.
 
 ## 5. Machine Leaning Model Application:
-The following classificaiton algorithms were tested:
+The following classification algorithms were tested:
 
 - Logistic Regression
 - SVC
