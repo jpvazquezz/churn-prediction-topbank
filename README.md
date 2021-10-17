@@ -28,16 +28,17 @@ In recent months, the Analytics team realized that the rate of customers canceli
 
 ## 3. Solution Strategy
 The solution was based upon the following strategy:
-	1. **Step 1 - Data Description**: use descriptive statistics to identify important or ususual behaviours in the data.
-	2. **Step 2 - Feature Engeering**: create or derive new variables to help better understand the phenomenon or to improve model performance.
-	3. **Step 3 - Feature Filtering**: filter the unnecessary variables and row in terms of information gain of that are outside the business' scope.
-	4. **Step 4 - Exploratory Data Analysis**: explore the data to find insights, to comprehend the variables' behaviour and their consequent impact on the model's learning. 
-	5. **Step 5 - Data Preparation**: use techniques to better prepare the data to the machine learning model. 
-	6. **Step 6 - Feature Selection**: select the features that contain the main information and attributes requeried from the model to learn the the phenomenon's behaviour. 
-	7. **Step 7 - Machine Learning Modelling**: machine learning model training and performance comparasion. 
-	8. **Step 8 - Churn Analysis**: analyse the churn probability of TopBank's customers
-	9. **Step 9 - Bussiness Report and Financial Impact**: find out what is the financial impact if the model is implemented to avoid customer churn.
-	10. **Step 10 - Deploy**: deploy the model in production. 
+
+1. **Step 1 - Data Description**: use descriptive statistics to identify important or ususual behaviours in the data.
+2. **Step 2 - Feature Engeering**: create or derive new variables to help better understand the phenomenon or to improve model performance.
+3. **Step 3 - Feature Filtering**: filter the unnecessary variables and row in terms of information gain of that are outside the business' scope.
+4. **Step 4 - Exploratory Data Analysis**: explore the data to find insights, to comprehend the variables' behaviour and their consequent impact on the model's learning. 
+5. **Step 5 - Data Preparation**: use techniques to better prepare the data to the machine learning model. 
+6. **Step 6 - Feature Selection**: select the features that contain the main information and attributes requeried from the model to learn the the phenomenon's behaviour. 
+7. **Step 7 - Machine Learning Modelling**: machine learning model training and performance comparasion. 
+8. **Step 8 - Churn Analysis**: analyse the churn probability of TopBank's customers
+9. **Step 9 - Bussiness Report and Financial Impact**: find out what is the financial impact if the model is implemented to avoid customer churn.
+10. **Step 10 - Deploy**: deploy the model in production. 
 
 ## 4. Top 3 Data Insights:
 	
@@ -99,3 +100,11 @@ By the end of the project, I was able to create a XGBoost model that predicted t
 - Do hyperparameter fine-tunning
 - Improve Dash app UX
 
+## About the author
+
+This project is powered by DS Community. DS Community is a data science hub designed to forge elite data scientists based on real bussiness solutions and practical projects. To know more about DS Community, click [here](https://www.comunidadedatascience.com/).
+
+To check out the app, **click [here](https://churn-prediction-topbank.herokuapp.com/)**.
+
+The solution was created by **João Pedro Vazquez**. Graduated as a political scientist, João Pedro is an aspiring data scientist, who seeks to improve his skills through projects with real bussiness purposes and through continuous and sharpened study.
+[LinkedIn](https://www.linkedin.com/in/joao-pedro-vazquez/)
