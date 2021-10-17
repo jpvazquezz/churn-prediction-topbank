@@ -41,24 +41,24 @@ The solution was based upon the following strategy:
 
 ## 4. Top 3 Data Insights:
 	
-	**Hypothesis 1**: the higher the salary, the higher the balance Quanto maior o salário, maior o balanço
-	R: False, there is no evidence to support this hypothesis.
+**Hypothesis 1**: the higher the salary, the higher the balance.
+R: False, there is no evidence to support this hypothesis.
 
-	**Hypothesis 2**: the greater the number of products, the higher the revenue.
-	R: False, there is no evidence to support this hypothesis.
+**Hypothesis 2**: the greater the number of products, the higher the revenue.
+R: False, there is no evidence to support this hypothesis.
 
-	**Hypothesis 3**: The more years the customer has in the bank, the higher his balance.
-	R: False, there is no evidence to support this hypothesis.
+**Hypothesis 3**: The more years the customer has in the bank, the higher his balance.
+R: False, there is no evidence to support this hypothesis.
 
 ## 5. Machine Leaning Model Application:
-	The following classificaiton algarithms were tested:
+The following classificaiton algorithms were tested:
 
-	- Logistic Regression
-	- SVC
-	- XGBoost Classifier
-	- Random Forest Classifier
+- Logistic Regression
+- SVC
+- XGBoost Classifier
+- Random Forest Classifier
 
-	F1-Score was elected the main metric of performance evaluation. Morover, the calibration curve was also used as a technique to elect the best model. 
+F1-Score was elected the main metric of performance evaluation. Morover, the calibration curve was also used as a technique to elect the best model. 
 
 |          |  Logistic Regression  |       SVC        |     XGBoost     |   Random Forest  | 
 |----------|-----------------------|------------------|-----------------|------------------|
@@ -87,15 +87,15 @@ The **total lost revenue** if we expect all customers to churn would be **$38,84
 By the end of the project, I was able to create a XGBoost model that predicted the TopBank customers' probability to churn and also formulate a action plan to tackle the churning problem based on giving customers a gift card in accordance to their churn probability and the maximization of customers' ROI. In addition to the financial return, the model was created using Dash and deployed in production with Heroku.
 
 ## 9. Lessons Learned
-	- Extremely low correlation between features 
-	- Managing imbalanced data with SMOTE
-	- Utilizing Calibration Curve as a criteria to elect the best model
-	- Dash framework 
+- Extremely low correlation between features 
+- Managing imbalanced data with SMOTE
+- Utilizing Calibration Curve as a criteria to elect the best model
+- Dash framework 
 
 
 ## 10. To Improve
-	- Improve feature engeenering (elaborate more features)
-	- Create a better algorithm to select the customers
-	- Do hyperparameter fine-tunning
-	- Improve Dash app UX
+- Improve feature engeenering (elaborate more features)
+- Create a better algorithm to select the customers
+- Do hyperparameter fine-tunning
+- Improve Dash app UX
 
