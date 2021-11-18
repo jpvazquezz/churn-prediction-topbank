@@ -1,4 +1,4 @@
-# Churn Prediction Probability - TopBank
+	# Churn Prediction Probability - TopBank
 ## An action plan based upon detecting TopBank customers' churn probability
 
 ![](https://www.milldesk.com.br/wp-content/uploads/2019/09/customer-churn-milldesk-1024x513.jpeg)
@@ -110,4 +110,5 @@ This project is powered by DS Community. DS Community is a data science hub desi
 To check out the app, **click [here](https://churn-prediction-topbank.herokuapp.com/)**.
 
 The solution was created by **João Pedro Vazquez**. Graduated as a political scientist, João Pedro is an aspiring data scientist, who seeks to improve his skills through projects with real bussiness purposes and through continuous and sharpened study.
-[LinkedIn](https://www.linkedin.com/in/joao-pedro-vazquez/)
+
+[<img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>](https://www.linkedin.com/in/joao-pedro-vazquez/) [<img alt="Medium" src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white"/>](https://jpvazquez.medium.com/) [<img alt="Gmail" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>](jpvazquez01@gmail.com)
