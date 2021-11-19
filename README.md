@@ -1,4 +1,4 @@
-	# Churn Prediction Probability - TopBank
+# Churn Prediction Probability - TopBank
 ## An action plan based upon detecting TopBank customers' churn probability
 
 ![](https://www.milldesk.com.br/wp-content/uploads/2019/09/customer-churn-milldesk-1024x513.jpeg)
